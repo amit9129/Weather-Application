@@ -1,4 +1,4 @@
-** Weather Application 🌦️** —
+**** Weather Application 🌦️**** —
 The Weather Application is a simple and interactive web-based tool to provide users with real-time weather data and forecasts. Using OpenWeatherMap's API, this application fetches current and 5-day weather forecasts for any location, offering temperature, humidity, wind speed, and other weather-specific information in a user-friendly format. Integrated with Tenor API, the app also displays weather-relevant GIFs, making the forecast experience more engaging.
 
 **Features** —

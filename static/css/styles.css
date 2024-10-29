@@ -1,46 +1,55 @@
+/* Global Styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f5;
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
 }
 
-.container {
-    width: 90%;
-    margin: 0 auto;
+/* Centered container */
+.container-fluid {
+    padding: 50px 15px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.card {
+    border: 1px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
     padding: 20px;
 }
 
-.current-weather, .forecast-dashboard {
-    margin: 20px 0;
+.btn {
+    background-color: #007bff;
+    border: none;
+    border-radius: 0;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Forecast Cards */
+.forecast {
+    margin-top: 20px;
     padding: 15px;
-    border-radius: 8px;
     background-color: #ffffff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.forecast-grid {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.forecast-card {
-    width: 18%;
-    padding: 10px;
-    text-align: center;
-    background-color: #f9f9fc;
     border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #007bff;
 }
 
-.forecast-card h3 {
-    font-size: 1.2em;
-    margin: 10px 0;
+/* GIF Container */
+#weather-gif-container {
+    margin-top: 30px;
 }
 
-.forecast-card img {
-    width: 50px;
-    height: 50px;
+.alert {
+    display: none;
+    font-size: 16px;
 }
